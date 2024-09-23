@@ -1,0 +1,119 @@
+.div1{
+    background-image: url(https://www.infermentum.it/_upload/_big/1713362537.3386_Il_Biscotto-Muscovado-e-Cannella_Taglio-per-sito.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 1500px;
+}
+.div2{
+    display: flex;
+}
+.div3{
+    background-color:fuchsia;
+   width: 50%;
+    height: 800px;
+
+}
+
+img{
+   padding: 50px;
+}
+.div4{
+    width: 50%;
+    background-color: white;
+   
+}
+li{
+    list-style-type: none;
+   
+}
+.div5{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+a{
+    color: black;
+}
+.image{
+    display: flex;
+   padding: 20px;
+}
+.div7{
+    display: flex;
+   padding-top: 130px;
+   justify-content: space-around;
+   height: 150px;
+   width: 300px;
+}
+.body{
+    background-color: antiquewhite;
+    height: 700px;
+    width: 50%;
+    padding:30px;
+    
+}
+.body2{
+    background-color: antiquewhite;
+    height: 700px;
+    width: 50%;
+
+}
+.sec{
+    display: flex;
+
+}
+.sec1{
+    background-color: antiquewhite;
+    height: 760px;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+
+}
+.cookie,.second{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.hover5{
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    height: 300px;
+    margin: auto;
+
+}
+.hover3{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+
+}
+.div10:hover .hover3{
+     top: 50%;
+     transform: translateY(-100px);
+     transition: 0.4s;
+}
+.div10:hover {
+    .hover6{
+        opacity: 0;
+    }
+    .hover3{
+        opacity: 1;
+    }
+}
+.hover6{
+    width: 200px;
+}
+.hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.hover:hover{
+    background-color: white;
+    color: black;
+}
